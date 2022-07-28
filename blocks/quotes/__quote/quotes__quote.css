@@ -1,0 +1,10 @@
+@media screen and (max-width: 1024px) {
+  .quotes__quote:nth-child(n + 3) {
+    margin-top: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .quotes__quote:not(:first-child) {
+    margin-top: 48px;
+  }
+}
