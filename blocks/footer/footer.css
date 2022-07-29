@@ -4,7 +4,7 @@
   background-color: #fecda7;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 822px) {
   .footer {
     height: 320px;
   }
