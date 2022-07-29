@@ -1,0 +1,33 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+  "image title"
+  "image text";
+}
+
+.place:nth-of-type(even) {
+  grid-template-areas:
+  "title image"
+  "text image";
+}
+
+@media screen and (max-width: 822px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "title"
+    "image"
+    "text";
+    gap: 50px;
+    margin: 0 0 50px;
+  }
+  .place:nth-of-type(even) {
+    grid-template-areas:
+    "title"
+    "image"
+    "text";
+    gap: 50px;
+    margin: 0 0 50px;
+  }
+}

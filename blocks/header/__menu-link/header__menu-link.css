@@ -1,0 +1,11 @@
+.header__menu-link {
+    font-weight: 900;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 822px) {
+    .header__menu-link {
+      font-size: 9px;
+    }
+}

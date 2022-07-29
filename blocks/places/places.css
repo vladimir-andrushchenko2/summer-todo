@@ -1,0 +1,15 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2F2F2;
+  margin: 0 0 133px;
+}
+
+@media screen and (max-width: 822px) {
+  .places {
+    padding: 50px 0 0;
+    margin: 0 0 67px;
+  }
+}

@@ -1,0 +1,12 @@
+.header__menu-report {
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+@media screen and (max-width: 822px) {
+  .header__menu-report {
+    font-size: 9px;
+    line-height: 11px;
+  }
+}

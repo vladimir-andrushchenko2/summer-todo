@@ -1,0 +1,22 @@
+.lead__text {
+  min-height: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 822px) {
+  .lead__text {
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 10px;
+    gap: 10px;
+    padding: 0 34px;
+  }
+}
+
+@media screen and (max-width: 373px) {
+  .lead__text {
+    padding: 0;
+  }
+}

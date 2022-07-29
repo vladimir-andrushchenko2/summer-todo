@@ -1,0 +1,23 @@
+.quotes__container {
+  margin: 118px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1116px) {
+  .quotes__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: normal;
+  }
+}
+
+@media screen and (max-width: 822px) {
+  .quotes__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 48px;
+  }
+}
