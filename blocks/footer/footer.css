@@ -3,3 +3,9 @@
   display: flex;
   background-color: #fecda7;
 }
+
+@media screen and (max-width: 550px) {
+  .footer {
+    height: 320px;
+  }
+}
