@@ -6,4 +6,5 @@
 #### Планы по доработке:
 * Добавить форму для обратной связи
 
-- Ссылка на Github Pages: https://vladimir-andrushchenko2.github.io/summer-todo/
+#### Ссылка на Github Pages:
+* https://vladimir-andrushchenko2.github.io/summer-todo/
